@@ -1,0 +1,17 @@
+const executors = {
+  GET_TODOS: 'GET_TODOS',
+  GET_TODO: 'GET_TODO',
+  CREATE_TODO: 'CREATE_TODO',
+  UPDATE_TODO: 'UPDATE_TODO',
+  DELETE_TODO: 'DELETE_TODO',
+} as const;
+
+const watchers = {
+  GET_TODOS: 'GET_TODOS_REQUEST',
+  GET_TODO: 'GET_TODO_REQUEST',
+  CREATE_TODO: 'CREATE_TODO_REQUEST',
+  UPDATE_TODO: 'UPDATE_TODO_REQUEST',
+  DELETE_TODO: 'DELETE_TODO_REQUEST',
+} as const;
+
+export { executors, watchers };
